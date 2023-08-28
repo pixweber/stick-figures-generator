@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather&family=Nanum+Pen+Script&family=Style+Script&display=swap');
+
+body {
+}
+
+.header {
+  text-align: center;
+}
+
+.title {
+  font-family: 'Style Script', cursive;
+}
+
+.itemImageImage:hover, .active {
+  cursor: pointer;
+  border: 3px solid #007bff;
+  border-radius: 5px;
+}
+
+.items-container {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.edit-bar-container {
+  height: 40px;
+}
+
+.edit-bar {
+  display: none;
+}
+
+.edit-bar svg:hover {
+  cursor: pointer;
+}
+
+.item:hover .edit-bar {
+  display: block;
+}
+
+.item:hover img {
+  border: 3px solid #999;
+  border-radius: 5px;
+}
+
+.item {
+  margin: 0 10px;
+  position: relative;
+}
+
+.item-image {
+  text-align: center;
+}
+
+.item-text {
+  font-family: 'Merriweather', serif;
+  font-size: 40px;
+  font-weight: bold;
+.no-caret {
+}
+
+  caret-color: transparent;
+}
